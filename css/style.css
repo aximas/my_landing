@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway/Raleway-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Raleway_bold';
+    src: url("../fonts/Raleway/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway_extra_bold';
+    src: url("../fonts/Raleway/Raleway-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*        Panel           */
+.panel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 45px;
+    background-color: #363636 ;
+    font-family: Roboto, sans-serif;
+}
+
+.panel a span {
+    font-size: 13px;
+    color: #898989;
+}
+
+.panel-block {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;  
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-languages {
+    display: flex;
+    align-items: center;
+}
+
+.panel-languages span {
+    margin-left: 8px;
+    
+}
+
+.panel-languages a:hover .language-icon {
+    fill: #e5493a;
+}
+
+.panel-tel_num {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+}
+
+.panel-tel_num span {
+    margin-left: 8px;
+}
+
+.panel-tel_num a:hover .tel-icon {
+    fill: #e5493a;
+}
+
+.panel-email {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+}
+
+.panel-email span {
+    margin-left: 8px;
+}
+
+.panel-email a:hover .email-icon {
+    fill: #e5493a;
+}
+
+.soc-links { 
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.soc-links a {
+    margin-right: 15px;
+}
+
+.soc-icon {
+    display: flex;
+    width: 20px;
+    fill: #898989;
+}
+
+
+
+
+/*      Navbar       */
+
+.navbar {
+    height: 110px;
+}
+
+/*       main navs        */
+
+a.navbar-brand img {
+    width: 200px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-family: 'Raleway_extra_bold', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    
+}
+
+
+
+.menu li {
+    width: 125px;
+    height: 50px;
+    -webkit-transition: background-position-x 0.9s linear;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+  }
+  .menu li a {
+    
+    color: #777;
+    text-decoration: none;
+    -webkit-transition: all 0.45s;
+    transition: all 0.45s;
+  }
+  .menu li:hover {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+    -webkit-animation: line 1s;
+            animation: line 1s;
+  }
+  .menu li:hover a {
+    color: #d94f5c;
+  }
+  .menu li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  @-webkit-keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+  
+  @keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+
+
+
+.form-inline input[placeholder]   {
+    font-family: 'Raleway_extra_bold', sans-serif;
+    font-size: 14px;
+}
+
+.form-inline button {
+    background-color: #2ea2db;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.form-inline button:hover {
+    color: #fff;
+}
+
+ 
+
+
+
+
+
+ .navbar-collapse {
+    z-index: 1;
+    background-color: #fff;
+    text-align: center;
+ }
+
+
+
+
+
+.belt {
+    width: 100%;
+    height: auto;
+    background-color: #363636;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.belt p {
+    font-family: 'Raleway_bold', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #959595;
+}
+
+
+
+
+
