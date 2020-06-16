@@ -1,0 +1,44 @@
+@media (max-width:426px) {
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .adv-block {
+        display: block;
+        width: 290px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .adv-block::after {
+        left: 115px;
+    }
+}
+
+@media (min-width:427px) and (max-width:769px) {
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .adv-block {
+            display: block;
+            width: 290px;
+            margin-bottom: 45px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .adv-block::after {
+            left: 90px;
+        }
+        .adv-block {
+            width: 240px;
+        }
+        .navbar-nav {
+            margin-bottom: 20px;
+        }
+    }
+       

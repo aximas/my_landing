@@ -137,7 +137,6 @@ a.navbar-brand img {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    margin-top: 10px;
     font-weight: 700;
 }
 
@@ -163,7 +162,7 @@ a.navbar-brand img {
     margin-left: auto;
     margin-right: auto;
     content: "";
-    width: 65px;
+    width: 100px;
     height: 2px;
     background-color:#363636;
     transform: translateY(10px) scaleX(0);
@@ -233,17 +232,18 @@ a.navbar-brand img {
     color: #959595;
 }
 
-.clip {
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-   }
 
-.clip_2 {
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+
+.slider_block {
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/SLIDER.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.clip_3 {
-    clip-path: circle(50% at 50% 50%);
-}
 
 
 
@@ -331,3 +331,49 @@ a.navbar-brand img {
     margin-bottom: 30px;
 }
 
+
+
+
+.information {
+    width: 100%;
+    height: 400px;
+    background-image:url(../img/Background.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information h3 {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+#cars_counter {
+    display: none;
+  }
+  
+  #cars_counter.js{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    width: 250px;
+    padding: 20px;
+    background: #12466D;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+  }
+  #cars_counter span {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 1px 0;
+    border: 2px solid #000;
+    background: #fff;
+  }
