@@ -242,8 +242,24 @@ a.navbar-brand img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
+.slider_block_text {
+   position: relative;
+
+
+}
+
+.slider_block_text h1 {
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    mix-blend-mode: color-burn;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+}
 
 
 
@@ -334,16 +350,17 @@ a.navbar-brand img {
 
 
 
-.information {
+.blog {
     width: 100%;
-    height: 400px;
+    min-height: 400px;
     background-image:url(../img/Background.png);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
-.information h3 {
+.blog h3 {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -354,26 +371,81 @@ a.navbar-brand img {
 }
 
 
-#cars_counter {
-    display: none;
-  }
-  
-  #cars_counter.js{
-    font-size: 40px;
+  .blog h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e5493a;
     text-align: center;
-    color: #000;
-    width: 250px;
-    padding: 20px;
-    background: #12466D;
-    display: inline-block;
-    font-weight: bold;
-    position: relative;
+    margin-top: 30px;
   }
-  #cars_counter span {
-    display: inline-block;
-    position: relative;
-    padding: 5px;
-    margin: 1px 0;
-    border: 2px solid #000;
-    background: #fff;
+
+  .blog p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+    text-align: center;
+    margin-top: 30px;
   }
+
+.socLinks {
+    /* display: block; */
+   
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.socLinks svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    filter: grayscale(50%);
+    transition:all .3s ease;
+}
+.socLinks svg:hover {
+    filter: grayscale(0);
+}
+
+
+
+.aboutMe {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.aboutMe a {
+    color:#363636;
+    text-decoration: none;
+}
+
+.aboutMe a:hover {
+    text-decoration: none;
+}
+
+.imgBlock_aboutMe {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imgBlock_aboutMe img {
+    display: flex;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.tab-pane {
+    text-align: center;
+}

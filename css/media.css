@@ -2,6 +2,7 @@
     .navbar-nav {
         display: flex;
         align-items: center;
+        padding-bottom: 30px;
     }
 
     .adv-block {
@@ -14,6 +15,9 @@
 
     .adv-block::after {
         left: 115px;
+    }
+    .slider_block_text h1 {
+        font-size: 160%;
     }
 }
 

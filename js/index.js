@@ -1,3 +1,5 @@
+// script of search element
+
 $('.toggle').focusin(function() {
     $(this).addClass('active');
     $('.search').addClass('move');
@@ -7,3 +9,6 @@ $('.toggle').focusin(function() {
     $(this).removeClass('active').val("");
     $('.search').removeClass('move');
   });
+
+
+ 
